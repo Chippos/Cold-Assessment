@@ -31,7 +31,7 @@ const Products = () => {
       <div className='py-20 flex flex-col items-center justify-center gap-5'>
         <p className='text-2xl textGradient'>Oops! Data not found</p>
         <button
-          onClick={() => handleRefresh}
+          onClick={handleRefresh}
           className='globalButton hover:scale-105 transition duration-200 will-change-transform'>
           Try Again
         </button>

@@ -3,7 +3,7 @@ import { AboutBlob } from '../constants/vectors';
 
 const About = () => {
   return (
-    <section className='pt-40'>
+    <section className='py-20'>
       <div className='globalContainer'>
         <div className='grid lg:grid-cols-2 gap-x-6 gap-y-16 items-center'>
           <div className='space-y-8'>
